@@ -24,9 +24,9 @@ import time
 app = Flask(__name__)
 static_tmp_path = os.path.join(os.path.dirname(__file__), 'static', 'tmp')
 # Channel Access Token
-line_bot_api = LineBotApi('8PEB1AjH63SmJcztTtCzREcpSiD5eD8jPWhSmMyyYj8lVQUqNm75rwBUzGrp+pIQ6E+i6PTVzAlWe9JXIck8gLpd+UN+xDBGOM0CGJ6arrc8aPW4HYKdgb3wmgNDjETBspoJBJFhRONr1sttHagXwgdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('')
 # Channel Secret
-handler = WebhookHandler('e41539990aa2f5503432b51722ad69df')
+handler = WebhookHandler('')
 
 
 
